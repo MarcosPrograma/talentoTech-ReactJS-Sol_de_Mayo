@@ -1,0 +1,160 @@
+.contenedor {
+    max-width: 1100px;
+    margin: 2rem auto;
+    padding: 0 1.5rem;
+}
+
+.breadcrumbs {
+    font-family: var(--font-body, 'Inter', sans-serif);
+    font-size: 0.9rem;
+    color: var(--color-mutado, #6b6b6b);
+    margin-bottom: 1.5rem;
+}
+
+.enlaceVolver {
+    color: var(--color-texto, #1a1a1a);
+    text-decoration: none;
+    font-weight: 600;
+    transition: color 0.2s ease;
+}
+
+.enlaceVolver:hover {
+    color: var(--color-turquesa, #52c2d4);
+}
+
+.tarjetaDetalle {
+    background-color: var(--bg-blanco, #ffffff);
+    border-radius: 16px;
+    padding: 2.5rem;
+    display: flex;
+    gap: 3rem;
+    box-shadow: var(--sombra-tarjeta, 0 4px 15px rgba(0, 0, 0, 0.05));
+    align-items: flex-start;
+}
+
+.columnaImagen {
+    flex: 1;
+    min-width: 280px;
+    max-width: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 12px;
+    padding: 1.5rem;
+}
+
+.imagen {
+    width: 100%;
+    max-height: 380px;
+    object-fit: contain;
+    border-radius: 8px;
+}
+
+.columnaInfo {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.titulo {
+    font-family: var(--font-heading, 'Montserrat', sans-serif);
+    font-size: 2rem;
+    font-weight: 800;
+    color: var(--color-texto, #1a1a1a);
+    margin-bottom: 0.75rem;
+    line-height: 1.25;
+}
+
+.precio {
+    font-family: var(--font-heading, 'Montserrat', sans-serif);
+    font-size: 2.2rem;
+    font-weight: 800;
+    color: var(--color-texto, #1a1a1a);
+    margin-bottom: 1.25rem;
+}
+
+.moneda {
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--color-mutado, #6b6b6b);
+}
+
+.descripcion {
+    font-family: var(--font-body, 'Inter', sans-serif);
+    font-size: 1rem;
+    line-height: 1.6;
+    color: var(--color-mutado, #6b6b6b);
+    margin-bottom: 2rem;
+}
+
+/* Se rompió la alineación. Corregir Alineación a la izquierda de los botones para futuro */
+
+.acciones {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+    margin-top: auto;
+}
+
+.selectorCantidad {
+    display: flex;
+    align-items: center;
+    border: 1px solid var(--border, #E8E2DB);
+    border-radius: 50px;
+    padding: 0.3rem 0.8rem;
+    background-color: var(--bg-principal, #f4eee0);
+}
+
+.botonCantidad {
+    background: none;
+    border: none;
+    font-size: 1.2rem;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 0.2rem 0.6rem;
+    color: var(--color-texto, #1a1a1a);
+    transition: color 0.15s ease;
+}
+
+.botonCantidad:hover {
+    color: var(--color-turquesa, #52c2d4);
+}
+
+.numeroCantidad {
+    font-family: var(--font-heading, 'Montserrat', sans-serif);
+    font-size: 1rem;
+    font-weight: 700;
+    padding: 0 0.8rem;
+}
+
+.botonComprar {
+    background-color: var(--color-turquesa, #52c2d4);
+    color: var(--color-texto);
+    border: none;
+    border-radius: 50px;
+    padding: 0.85rem 2.5rem;
+    font-family: var(--font-heading, 'Montserrat', sans-serif);
+    font-weight: 700;
+    font-size: 0.95rem;
+    cursor: pointer;
+    transition: background-color 0.2s ease, transform 0.2s ease;
+    flex: 1;
+    min-width: 160px;
+    text-align: center;
+}
+
+.botonComprar:hover {
+    background-color: var(--color-turquesa-hover, #3ea8b7);
+    transform: translateY(-2px);
+}
+
+.mensaje {
+    text-align: center;
+    margin: 4rem 0;
+    font-family: var(--font-heading, 'Montserrat', sans-serif);
+    color: var(--color-texto, #1a1a1a);
+}

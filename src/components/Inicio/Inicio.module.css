@@ -1,0 +1,97 @@
+.hero {    
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    background-image: url('/images/Banner.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex; 
+    align-items: center;
+    justify-content: flex-end;
+    padding: 3rem 6%;
+}
+
+.heroContenido{
+    max-width: 520px;
+    text-align: center;
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.85);
+    padding: 2.5rem;
+    border-radius: 16px; 
+    backdrop-filter: blur(4px); 
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+}
+
+.heroSubtitulo {
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    letter-spacing: 1.5px;
+    font-weight: 700;
+    color: var(--color-mutado);
+    margin-bottom: 0.75rem;
+}
+
+.heroTitulo {
+    font-family: var(--font-heading);
+    font-size: 2.5rem;
+    font-weight: 800;
+    line-height: 1.25;
+    margin-bottom: 2rem;
+    margin-right: 500px;
+}
+
+.heroBoton {
+    display: inline-block;
+    background-color: var(--color-turquesa);
+    color: #ffffff;
+    text-decoration: none;
+    font-family: var(--font-heading);
+    font-weight: 700;
+    padding: 0.8rem 2rem;
+    border-radius: var(--borde-pildora);
+    transition: background-color 0.2s ease;
+}
+
+.heroBoton:hover {
+    background-color: var(--color-turquesa-hover);
+}
+
+.seccionProductos {
+    padding: 2rem 1.5rem 4rem 1.5rem;
+    text-align: center;
+}
+
+.subtitulo {
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    letter-spacing: 1px;
+    color: var(--color-mutado);
+    margin-bottom: 0.25rem;
+}
+
+.titulo {
+    font-family: var(--font-heading);
+    font-size: 2.2rem;
+    font-weight: 800;
+    margin-bottom: 2.5rem;
+}
+
+.botonVerMas {
+    display: inline-block;
+    background-color: var(--color-oscuro);
+    color: #ffffff;
+    text-decoration: none;
+    font-family: var(--font-heading);
+    font-weight: 700;
+    font-size: 0.85rem;
+    padding: 0.9rem 2.2rem;
+    border-radius: var(--borde-pildora);
+    transition: opacity 0.2s ease;
+}
+
+.botonVerMas:hover {
+    opacity: 0.9;
+}

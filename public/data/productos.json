@@ -1,0 +1,114 @@
+[
+  {
+    "id": "1",
+    "nombre": "Alfajores Artesanales de Dulce de Leche x6",
+    "precio": 6500,
+    "descripcion": "Deliciosos alfajores artesanales rellenos con abundante dulce de leche colonial.",
+    "imagen": "https://i.ibb.co/1JBrnBt2/img-card-1.jpg"
+  },
+  {
+    "id": "2",
+    "nombre": "Yerba Orgánica Premium 1Kg",
+    "precio": 4200,
+    "descripcion": "Yerba mate estacionada naturalmente durante 24 meses, origen Misiones.",
+    "imagen": "https://i.ibb.co/d363w7H/img-card-2.jpg"
+  },
+  {
+    "id": "3",
+    "nombre": "Dulce de Leche Colonial 500g",
+    "precio": 3800,
+    "descripcion": "Receta tradicional en frasco de vidrio, suave y cremoso.",
+    "imagen": "https://i.ibb.co/fzRMQWCg/img-card-3.jpg"
+  },
+  {
+    "id": "4",
+    "nombre": "Mate Imperial de Calabaza y Virola de Alpaca",
+    "precio": 28500,
+    "descripcion": "Mate artesanal de calabaza seleccionada, forrado en cuero vacuno trabajado a mano con virola de alpaca.",
+    "imagen": "https://i.ibb.co/TxPx9jzj/img-card-4.jpg"
+  },
+  {
+    "id": "5",
+    "nombre": "Bombilla de Alpaca Cincelada",
+    "precio": 9200,
+    "descripcion": "Bombilla tradicional de alpaca pura con filtro desarmable de resorte y detalles cincelados a mano.",
+    "imagen": "https://i.ibb.co/kgXzRtp4/img-card-5.jpg"
+  },
+  {
+    "id": "6",
+    "nombre": "Vino Malbec Reserva Mendoza 750ml",
+    "precio": 12800,
+    "descripcion": "Vino de gran cuerpo con 12 meses de crianza en roble francés, notas de frutos rojos y especias.",
+    "imagen": "https://i.ibb.co/vSz0rJd/img-card-6.jpg"
+  },
+  {
+    "id": "7",
+    "nombre": "Queso Criollo Saborizado de Campo 500g",
+    "precio": 7400,
+    "descripcion": "Queso artesanal estacionado producido en la pampa húmeda, madurado con orégano y pimienta en grano.",
+    "imagen": "https://i.ibb.co/XxR7Jj52/img-card-7.jpg"
+  },
+  {
+    "id": "8",
+    "nombre": "Salame de Tandil Cured 250g",
+    "precio": 5900,
+    "descripcion": "Auténtico salame con Denominación de Origen Protegida, elaborado con especias naturales y picado grueso.",
+    "imagen": "https://i.ibb.co/YFq2RmVP/img-card-8.jpg"
+  },
+  {
+    "id": "9",
+    "nombre": "Tabla de Asado en Madera de Guayubira",
+    "precio": 22000,
+    "descripcion": "Tabla para cortar y servir asado, curada con aceites naturales y canaleta para jugos.",
+    "imagen": "https://i.ibb.co/HL58NdyK/img-card-9.jpg"
+  },
+  {
+    "id": "10",
+    "nombre": "Cuchillo Artesanal de Disco de Arado",
+    "precio": 24500,
+    "descripcion": "Cuchillo criollo con hoja de acero al carbono reutilizado de disco de arado y cabo de ciervo con bronce.",
+    "imagen": "https://i.ibb.co/NgKxnW54/img-card-10.jpg"
+  },
+  {
+    "id": "11",
+    "nombre": "Poncho Salteño de Lana de Oveja",
+    "precio": 45000,
+    "descripcion": "Tejido en telar artesanal por artesanos del norte argentino, con tintes naturales y detalles de flecos.",
+    "imagen": "https://i.ibb.co/svNYY6GF/img-card-11.jpg"
+  },
+  {
+    "id": "12",
+    "nombre": "Mermelada Artesanal de Frutos Rojos del Sur 450g",
+    "precio": 4600,
+    "descripcion": "Elaborada en la Patagonia con frambuesas y moras silvestres, sin conservantes ni colorantes artificiales.",
+    "imagen": "https://i.ibb.co/Cs7SBk7b/img-card-12.jpg"
+  },
+  {
+    "id": "13",
+    "nombre": "Aceite de Oliva Extra Virgen de San Juan 500ml",
+    "precio": 8900,
+    "descripcion": "Prensado en frío de primera extracción, con acidez inferior al 0.2% y perfil frutado intenso.",
+    "imagen": "https://i.ibb.co/84DKKb75/img-card-13.jpg"
+  },
+  {
+    "id": "14",
+    "nombre": "Nueces Confitadas del Noroeste x8",
+    "precio": 6200,
+    "descripcion": "Mitades de nuez seleccionadas bañadas en fondant artesanal con relleno de dulce de leche casero.",
+    "imagen": "https://i.ibb.co/WpD2qGv9/img-card-14.jpg"
+  },
+  {
+    "id": "15",
+    "nombre": "Licor de Calafate Patagónico 500ml",
+    "precio": 11500,
+    "descripcion": "Bebida espirituosa artesanal macerada con frutos autóctonos de la Patagonia austral.",
+    "imagen": "https://i.ibb.co/v60jm12n/img-card-15.jpg"
+  },
+  {
+    "id": "16",
+    "nombre": "Boina Gaucha de Hilo de Algodón",
+    "precio": 8300,
+    "descripcion": "Boina criolla de confección nacional, fresca, liviana y resistente para uso diario.",
+    "imagen": "https://i.ibb.co/F45kFVWN/img-card-16.jpg"
+  }
+]

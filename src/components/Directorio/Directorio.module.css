@@ -1,0 +1,30 @@
+.seccionEquipo {
+    background-color: var(--bg-equipo);
+    padding: 4rem 2rem;
+    text-align: center;
+    color: var(--color-texto);
+}
+
+.subtitulo {
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    letter-spacing: 1px;
+    color: var(--color-mutado);
+    margin-bottom: 0.25rem;
+}
+
+.titulo {
+    font-family: var(--font-heading);
+    font-size: 2.2rem;
+    font-weight: 800;
+    margin-bottom: 2.5rem;
+}
+
+.grilla {
+    max-width: 1100px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 2rem;
+    justify-items: center;
+}

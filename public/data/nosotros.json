@@ -1,0 +1,26 @@
+[
+    {
+        "id": "1",
+        "nombre": "Silvia Gómez",
+        "puesto": "Directora General",
+        "foto": "/images/silvia.jpeg"        
+    },
+    {
+        "id": "2",
+        "nombre": "Luis Fernández",
+        "puesto": "Marketing y Ventas",
+        "foto": "/images/luis.jpeg"        
+    },
+        {
+        "id": "3",
+        "nombre": "Matias Pereyra",
+        "puesto": "Desarrollo y Diseño",
+        "foto": "/images/matias.jpeg"        
+    },
+        {
+        "id": "4",
+        "nombre": "Sabrina Rossi",
+        "puesto": "Logística y Operaciones",
+        "foto": "/images/sabrina.jpeg"        
+    }    
+]
