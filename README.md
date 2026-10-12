@@ -1,16 +1,23 @@
-# React + Vite
+# 1er Pre-Entrega del Proyecto 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Requerimientos
 
-Currently, two official plugins are available:
+### Estructura y Layout 
+1. El proyecto debe tener una estructura de carpetas organizada
+2. Debe contar con un componente Layout.jsx que contenga un Header.jsx, un nav y un Footer.jsx, con una apariencia consistente y funcional 
+3. El footer tiene que tener información de la empresa y las tarjetas de al menos 3 personas.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+### Catálogo de productos con datos de una API 
+1. La aplicación debe tener un componente como ItemListContainer.jsx (o una página que cumpla esa función) que cargue la información de productos desde un archivo productos.json local usando useEffect y fetch.
+2. Los productos deben renderizarse utilizando un componente reutilizable Item.jsx, que reciba los datos por props.
 
-## React Compiler
+### Sistema de ruteo
+1. La navegación debe ser gestionada por react-router-dom. Deben existir, como mínimo, las siguientes rutas:
+  * /: Vista principal o de bienvenida.
+  * /productos:
+  * /producto/:id: Vista de detalle de un único producto
+  * /carrito: Vista del carrito de compras.
+2. El NavBar debe utilizar el componente <Link> para una navegación fluida sin recargas de página.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Alojamiento online
+1. La página debe estar subida a Netlify o Vercel y compartir la url, junto con el link al repositorio de GitHub.
