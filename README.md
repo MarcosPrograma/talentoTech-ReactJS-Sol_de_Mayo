@@ -11,9 +11,9 @@ _El proyecto integra navegación SPA, gestión de estado global mediante Context
 _Para evaluar los distintos niveles de acceso y rutas protegidas de la aplicación, se encuentran habilitadas las siguientes cuentas_
 
 | Rol | Correo electrónico | Contraseña | Permisos |
-| :------- | :---: | | :---: | | :---: |
-| Administrador | admin@gmail.com | admin123 | Acceso total al catálogo, carrito y Panel de Gestión (CRUD de productos) |
-| Usuario  | usuario@gmail.com | usuario123 | Navegación del catálogo, búsqueda, detalle de productos y gestión del carrito de compras | 
+| :--- | :---: | :---: | :--- |
+| **Administrador** | `admin@gmail.com` | `admin123` | Acceso total al catálogo, carrito y Panel de Gestión (CRUD de productos) |
+| **Usuario** | `usuario@gmail.com` | `usuario123` | Navegación del catálogo, búsqueda, detalle de productos y gestión del carrito de compras |
 
 _También es posible crear nuevas cuentas desde el formulario de Registro, las cuales obtendrán automáticamente el rol de usuario_
 
