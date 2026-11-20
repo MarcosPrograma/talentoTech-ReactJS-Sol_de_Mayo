@@ -1,0 +1,50 @@
+.contenedor {
+  max-width: 600px;
+  margin: 3rem auto;
+  padding: 0 1.25rem;
+}
+
+.tarjeta {
+  background-color: var(--bg-blanco, #ffffff);
+  border-radius: 16px;
+  padding: 2.5rem 2rem;
+  text-align: center;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.06);
+  border: 1px solid var(--border, #e8e2db);
+}
+
+.iconoUsuario {
+  font-size: 3.5rem;
+  color: var(--color-turquesa, #52c2d4);
+  margin-bottom: 1rem;
+  line-height: 1;
+}
+
+.titulo {
+  font-family: var(--font-heading, "Montserrat", sans-serif);
+  font-size: clamp(1.25rem, 2.5vw, 1.5rem);
+  font-weight: 700;
+  color: var(--color-texto, #1a1a1a);
+  margin-bottom: 0.5rem;
+}
+
+.email {
+  color: var(--color-turquesa, #52c2d4);
+  word-break: break-word;
+}
+
+.subtitulo {
+  color: var(--color-mutado, #6b6b6b);
+  font-size: 0.95rem;
+  margin-bottom: 1.5rem;
+}
+
+.detalles {
+  background-color: #f9f8f6;
+  padding: 1rem 1.25rem;
+  border-radius: 8px;
+  margin-bottom: 2rem;
+  text-align: left;
+  font-size: 0.9rem;
+  color: var(--color-texto, #1a1a1a);
+}

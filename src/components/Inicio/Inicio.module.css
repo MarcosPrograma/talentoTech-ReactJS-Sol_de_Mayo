@@ -1,97 +1,79 @@
-.hero {    
-    position: relative;
-    width: 100%;
-    min-height: 100vh;
-    background-image: url('/images/Banner.png');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    display: flex; 
-    align-items: center;
-    justify-content: flex-end;
-    padding: 3rem 6%;
+.hero {
+  position: relative;
+  width: 100%;
+  min-height: 85vh;
+  background-image: url("/images/Banner.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 3rem 6%;
 }
 
-.heroContenido{
-    max-width: 520px;
-    text-align: center;
-    display: flex; 
-    flex-direction: column;
-    align-items: center;
-    background-color: rgba(255, 255, 255, 0.85);
-    padding: 2.5rem;
-    border-radius: 16px; 
-    backdrop-filter: blur(4px); 
-    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+.heroContenido {
+  max-width: 540px;
+  width: 100%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2.25rem;
+  border-radius: 16px;
 }
 
 .heroSubtitulo {
-    text-transform: uppercase;
-    font-size: 0.8rem;
-    letter-spacing: 1.5px;
-    font-weight: 700;
-    color: var(--color-mutado);
-    margin-bottom: 0.75rem;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  letter-spacing: 1.5px;
+  font-weight: 700;
+  color: var(--color-mutado);
+  margin-bottom: 0.75rem;
 }
 
 .heroTitulo {
-    font-family: var(--font-heading);
-    font-size: 2.5rem;
-    font-weight: 800;
-    line-height: 1.25;
-    margin-bottom: 2rem;
-    margin-right: 500px;
-}
-
-.heroBoton {
-    display: inline-block;
-    background-color: var(--color-turquesa);
-    color: #ffffff;
-    text-decoration: none;
-    font-family: var(--font-heading);
-    font-weight: 700;
-    padding: 0.8rem 2rem;
-    border-radius: var(--borde-pildora);
-    transition: background-color 0.2s ease;
-}
-
-.heroBoton:hover {
-    background-color: var(--color-turquesa-hover);
+  font-family: var(--font-heading);
+  font-size: clamp(1.75rem, 3.5vw, 2.5rem);
+  font-weight: 800;
+  line-height: 1.25;
+  color: var(--color-texto, #1a1a1a);
+  margin-bottom: 1.75rem;
 }
 
 .seccionProductos {
-    padding: 2rem 1.5rem 4rem 1.5rem;
-    text-align: center;
+  padding: 3rem 1rem 4rem;
+  text-align: center;
 }
 
 .subtitulo {
-    text-transform: uppercase;
-    font-size: 0.8rem;
-    letter-spacing: 1px;
-    color: var(--color-mutado);
-    margin-bottom: 0.25rem;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  letter-spacing: 1px;
+  color: var(--color-mutado);
+  margin-bottom: 0.25rem;
 }
 
 .titulo {
-    font-family: var(--font-heading);
-    font-size: 2.2rem;
-    font-weight: 800;
-    margin-bottom: 2.5rem;
+  font-family: var(--font-heading);
+  font-size: clamp(1.75rem, 3vw, 2.2rem);
+  font-weight: 800;
+  margin-bottom: 2.5rem;
 }
 
-.botonVerMas {
-    display: inline-block;
-    background-color: var(--color-oscuro);
-    color: #ffffff;
-    text-decoration: none;
-    font-family: var(--font-heading);
-    font-weight: 700;
-    font-size: 0.85rem;
-    padding: 0.9rem 2.2rem;
-    border-radius: var(--borde-pildora);
-    transition: opacity 0.2s ease;
+.contenedorVerMas {
+  text-align: center;
+  margin-top: 2.5rem;
 }
 
-.botonVerMas:hover {
-    opacity: 0.9;
+@media (max-width: 768px) {
+  .hero {
+    justify-content: center;
+    padding: 2rem 1rem;
+    min-height: 75vh;
+  }
+
+  .heroContenido {
+    padding: 1.75rem 1.25rem;
+  }
 }
