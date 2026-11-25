@@ -66,7 +66,7 @@ const Item = ({ id, nombre, precio, imagen, descripcion }) => {
       <div className={estilos.acciones}>
         <BotonComprar type="button" onClick={handleComprar}>
           <FaShoppingCart aria-hidden="true" />
-          <span>COMPRAR</span>
+          <span>AGREGAR AL CARRITO</span>
         </BotonComprar>
       </div>
     </Card>

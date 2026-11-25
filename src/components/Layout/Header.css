@@ -78,12 +78,22 @@
   color: var(--color-turquesa);
 }
 
+.header__auth-actions {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.55rem;
+}
+
 .header__cart-icon {
   position: relative;
   display: inline-flex;
   align-items: center;
   justify-content: center;
   gap: 0.3rem;
+}
+
+.header__cart-text-mobile {
+  display: none;
 }
 
 .header__cart-badge {
@@ -116,5 +126,26 @@
 
   .header__nav a {
     padding: 0.25rem 0;
+  }
+
+  .header__auth-actions {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.85rem;
+    width: 100%;
+  }
+
+  .header__cart-icon {
+    justify-content: flex-start;
+    gap: 0.45rem;
+  }
+
+  .header__cart-svg {
+    display: none;
+  }
+
+  .header__cart-text-mobile {
+    display: inline;
   }
 }

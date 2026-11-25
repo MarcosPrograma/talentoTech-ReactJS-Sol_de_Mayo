@@ -3,6 +3,7 @@ import ReactDOM from "react-dom/client";
 import { BrowserRouter } from "react-router-dom";
 import { HelmetProvider } from "react-helmet-async";
 import "bootstrap/dist/css/bootstrap.min.css";
+import ScrollToTop from "./components/Layout/ScrollToTop";
 import { AuthProvider } from "./context/AuthContext.jsx";
 import { CarritoProvider } from "./context/CarritoContext.jsx";
 import App from "./App.jsx";
@@ -12,6 +13,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
     <HelmetProvider>
       <BrowserRouter>
+      <ScrollToTop />
         <AuthProvider>
           <CarritoProvider>
             <App />
